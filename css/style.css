@@ -1,3 +1,115 @@
-h1 {
-  color: 0;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+.navbar_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+}
+.navbar_item {
+  list-style: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #292929;
+}
+.navbar a {
+  text-decoration: none;
+}
+.navbar_btn {
+  box-sizing: border-box;
+  background: #01996D;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 183px;
+  height: 51px;
+}
+.navbar_text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: 172 px;
+}
+
+.intro {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url(../img/BG.png);
+  padding: 175px 275px;
+  width: 1500px;
+  height: 895px;
+  margin: auto;
+  margin-top: 20px;
+}
+.intro_title {
+  width: 440px;
+  height: 148px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 74px;
+  color: #01996d;
+}
+.intro_text {
+  width: 420px;
+  height: 123px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
+}
+.intro_btn {
+  width: 227px;
+  height: 65px;
+  background: #01996d;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+.intro_understand {
+  width: 584px;
+  height: 158px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
 }/*# sourceMappingURL=style.css.map */

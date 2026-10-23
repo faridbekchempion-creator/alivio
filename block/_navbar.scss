@@ -1,1 +1,65 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  margin: auto;
+  margin-top: 20px;
+
+  &_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+  }
+
+  &_item
+  {
+    list-style: none;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #292929;
+  }
+  
+  a
+  {
+    text-decoration: none;
+  }
+
+  &_btn
+  {
+box-sizing: border-box;
+background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+width: 183px;
+height: 51px;
+  }
+  &_text{
+  
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+
+margin-left: 172  px;
+   
+  }
+}
 
